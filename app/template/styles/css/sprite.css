@@ -1,0 +1,47 @@
+.icon-arrow-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -48px 0px;
+  width: 19px;
+  height: 30px; }
+
+.icon-arrow-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -67px 0px;
+  width: 19px;
+  height: 30px; }
+
+.icon-clock {
+  background-image: url(../../img/sprite.png);
+  background-position: -67px -30px;
+  width: 14px;
+  height: 14px; }
+
+.icon-error {
+  background-image: url(../../img/sprite.png);
+  background-position: -48px -30px;
+  width: 14px;
+  height: 14px; }
+
+.icon-insta {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -48px;
+  width: 22px;
+  height: 22px; }
+
+.icon-magniffic-glass {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 48px;
+  height: 48px; }
+
+.icon-marker {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -70px;
+  width: 10px;
+  height: 16px; }
+
+.icon-phone {
+  background-image: url(../../img/sprite.png);
+  background-position: -22px -48px;
+  width: 14px;
+  height: 14px; }

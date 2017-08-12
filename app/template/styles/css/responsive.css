@@ -1,0 +1,305 @@
+@media screen and (max-width: 1070px) {
+  .container {
+    width: 100%; }
+  .panel {
+    position: relative;
+    padding-top: 23px;
+    padding-bottom: 34px; }
+    .panel__logo {
+      float: none;
+      margin-right: 0;
+      width: auto; }
+      .panel__logo .logo-big {
+        display: none; }
+      .panel__logo .logo-small {
+        display: block;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 23px; }
+      .panel__logo .logo-desc {
+        position: relative;
+        text-align: center;
+        bottom: 0;
+        margin-bottom: 15px; }
+    .panel__content {
+      float: none; }
+    .panel__contacts {
+      text-align: center; }
+      .panel__contacts p {
+        display: block; }
+    .panel__phone {
+      margin: 10px 0 8px; }
+  .header {
+    margin-top: 0; }
+    .header__title {
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 23px; }
+    .header__day {
+      font-size: 23px;
+      padding: 5px 12px;
+      margin-right: 0;
+      margin-bottom: 9px; }
+    .header__price {
+      display: block !important;
+      font-size: 23px; }
+    .header__content .col {
+      width: 100%; }
+    .header__content li {
+      display: block;
+      font-size: 15px;
+      line-height: normal;
+      margin-bottom: 13px; }
+      .header__content li:before {
+        top: 7px; }
+  .nav {
+    display: none; }
+  .title {
+    font-size: 22px;
+    line-height: 30px; }
+  .technologies__title {
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 27px; }
+    .technologies__title span {
+      width: 90%;
+      display: inline-block; }
+    .technologies__title:before, .technologies__title:after {
+      position: absolute;
+      display: block;
+      top: 50%;
+      width: 5%; }
+    .technologies__title:before {
+      left: 5%; }
+    .technologies__title:after {
+      right: 5%; }
+  .technologies__list .col {
+    width: 50%; }
+  .technologies__item:nth-of-type(1), .technologies__item:nth-of-type(2) {
+    margin-bottom: 37px; }
+  .technologies__subtext {
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 16px; }
+  .advantages__item {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 19px; }
+    .advantages__item:nth-of-type(even) {
+      border-right: none; }
+    .advantages__item:last-of-type {
+      margin-bottom: 0;
+      height: auto; }
+    .advantages__item:nth-of-type(1), .advantages__item:nth-of-type(4) {
+      padding-top: 25px; }
+    .advantages__item:nth-of-type(2), .advantages__item:nth-of-type(3) {
+      padding-top: 15px; }
+  .price {
+    padding-bottom: 51px; }
+    .price__title {
+      position: relative; }
+      .price__title span {
+        width: 80%;
+        display: inline-block; }
+      .price__title:before, .price__title:after {
+        position: absolute;
+        display: block;
+        top: 50%;
+        width: 5%; }
+      .price__title:before {
+        left: 5%; }
+      .price__title:after {
+        right: 5%; }
+    .price__subtitle {
+      display: none; }
+    .price__table {
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 14px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto; }
+      .price__table th {
+        font-size: 14px;
+        text-align: center; }
+      .price__table th, .price__table td {
+        padding: 5px;
+        width: 33.3333%; }
+      .price__table + .price__text {
+        margin-top: 30px;
+        margin-bottom: 0; }
+  .steps__list {
+    font-size: 0;
+    text-align: center; }
+    .steps__list .col {
+      display: inline;
+      float: none;
+      width: auto; }
+  .steps__item {
+    display: inline-block;
+    height: auto;
+    margin-bottom: 17px;
+    width: 210px; }
+  .steps__img {
+    display: block; }
+    .steps__img img {
+      width: 100%; }
+  .steps__content {
+    width: auto;
+    min-height: 225px;
+    text-align: left; }
+  .portfolio__title {
+    padding-top: 40px;
+    padding-bottom: 37px; }
+  .portfolio__list {
+    font-size: 0;
+    text-align: center; }
+  .portfolio__item {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3333%; }
+  .portfolio__text {
+    font-size: 11px;
+    line-height: 13px;
+    padding-top: 9px;
+    height: 40px;
+    text-align: left; }
+  .reviews .container {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .reviews__list {
+    margin-left: 0;
+    margin-right: 0; }
+    .reviews__list .slick-dots {
+      width: -webkit-calc(100% - 30px);
+      width: calc(100% - 30px); }
+  .reviews__item {
+    margin-left: 0;
+    margin-right: 0; }
+  .about {
+    margin-top: 40px; }
+    .about__content {
+      width: 60%; }
+      .about__content h1 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 15px; }
+    .about__insta {
+      width: 35%; }
+  .wiget__img img {
+    margin-left: auto;
+    margin-right: auto; }
+  .order__title {
+    font-size: 20px;
+    line-height: 31px; }
+    .order__title span {
+      padding: 6px 10px; }
+  .order__wrap {
+    width: 100%;
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    height: 260px;
+    padding-left: 20px; }
+    .order__wrap:before {
+      width: 13px; }
+    .order__wrap:after {
+      width: 106px; }
+    .order__wrap .input_name {
+      width: 235px; }
+  .order__input {
+    display: block; }
+  .order__button {
+    margin-bottom: 13px; }
+  .order__text {
+    margin-top: 90px; } }
+
+@media screen and (max-width: 950px) {
+  .footer {
+    position: relative;
+    padding-bottom: 109px; }
+    .footer__content {
+      float: none;
+      width: 100%;
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto; }
+      .footer__content .col {
+        float: none; }
+      .footer__content .row:nth-of-type(1) {
+        border-bottom: none; }
+      .footer__content .row:nth-of-type(2) {
+        position: absolute;
+        bottom: 15px;
+        width: 280px;
+        left: 50%;
+        padding-top: 15px;
+        margin-left: -140px; }
+    .footer__logo {
+      margin-bottom: 30px;
+      margin-right: 0; }
+    .footer__contacts p {
+      position: relative;
+      padding-left: 30px; }
+    .footer__contacts .icon-wrap {
+      position: absolute;
+      margin-right: 0;
+      top: 0;
+      left: 0; }
+    .footer__contacts br {
+      display: block; }
+    .footer__requisites {
+      float: none;
+      width: 100%;
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: 1px solid #123c3f;
+      padding-bottom: 15px; }
+    .footer__copy {
+      margin-right: 0;
+      margin-bottom: 10px; }
+    .footer__dev, .footer__copy {
+      float: none; } }
+
+@media screen and (max-width: 880px) {
+  .about__content {
+    width: 100%;
+    float: none; }
+  .about__insta {
+    margin-top: 40px;
+    float: none;
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (max-width: 650px) {
+  .order__text p {
+    display: inline; } }
+
+@media screen and (max-width: 600px) {
+  .technologies__title:before, .price__title:before {
+    left: -7%; }
+  .technologies__title:after, .price__title:after {
+    right: -7%; }
+  .portfolio__item {
+    width: 50%; } }
+
+@media screen and (max-width: 490px) {
+  .steps__item {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .steps__content {
+    min-height: 1px;
+    padding-bottom: 15px; } }
+
+@media screen and (max-width: 480px) {
+  .technologies__title:before {
+    left: -10%; }
+  .technologies__title:after {
+    right: -10%; } }

@@ -31,27 +31,38 @@ $arrow-right-total-height: 86px
 $arrow-right-image: '../../img/sprite.png'
 $arrow-right: (67px, 0px, -67px, 0px, 19px, 30px, 86px, 86px, '../../img/sprite.png', 'arrow-right', )
 $clock-name: 'clock'
-$clock-x: 67px
+$clock-x: 48px
 $clock-y: 30px
-$clock-offset-x: -67px
+$clock-offset-x: -48px
 $clock-offset-y: -30px
 $clock-width: 14px
 $clock-height: 14px
 $clock-total-width: 86px
 $clock-total-height: 86px
 $clock-image: '../../img/sprite.png'
-$clock: (67px, 30px, -67px, -30px, 14px, 14px, 86px, 86px, '../../img/sprite.png', 'clock', )
+$clock: (48px, 30px, -48px, -30px, 14px, 14px, 86px, 86px, '../../img/sprite.png', 'clock', )
+$close-name: 'close'
+$close-x: 67px
+$close-y: 30px
+$close-offset-x: -67px
+$close-offset-y: -30px
+$close-width: 16px
+$close-height: 16px
+$close-total-width: 86px
+$close-total-height: 86px
+$close-image: '../../img/sprite.png'
+$close: (67px, 30px, -67px, -30px, 16px, 16px, 86px, 86px, '../../img/sprite.png', 'close', )
 $error-name: 'error'
-$error-x: 48px
-$error-y: 30px
-$error-offset-x: -48px
-$error-offset-y: -30px
+$error-x: 22px
+$error-y: 48px
+$error-offset-x: -22px
+$error-offset-y: -48px
 $error-width: 14px
 $error-height: 14px
 $error-total-width: 86px
 $error-total-height: 86px
 $error-image: '../../img/sprite.png'
-$error: (48px, 30px, -48px, -30px, 14px, 14px, 86px, 86px, '../../img/sprite.png', 'error', )
+$error: (22px, 48px, -22px, -48px, 14px, 14px, 86px, 86px, '../../img/sprite.png', 'error', )
 $insta-name: 'insta'
 $insta-x: 0px
 $insta-y: 48px
@@ -86,20 +97,20 @@ $marker-total-height: 86px
 $marker-image: '../../img/sprite.png'
 $marker: (0px, 70px, 0px, -70px, 10px, 16px, 86px, 86px, '../../img/sprite.png', 'marker', )
 $phone-name: 'phone'
-$phone-x: 22px
+$phone-x: 36px
 $phone-y: 48px
-$phone-offset-x: -22px
+$phone-offset-x: -36px
 $phone-offset-y: -48px
 $phone-width: 14px
 $phone-height: 14px
 $phone-total-width: 86px
 $phone-total-height: 86px
 $phone-image: '../../img/sprite.png'
-$phone: (22px, 48px, -22px, -48px, 14px, 14px, 86px, 86px, '../../img/sprite.png', 'phone', )
+$phone: (36px, 48px, -36px, -48px, 14px, 14px, 86px, 86px, '../../img/sprite.png', 'phone', )
 $spritesheet-width: 86px
 $spritesheet-height: 86px
 $spritesheet-image: '../../img/sprite.png'
-$spritesheet-sprites: ($arrow-left, $arrow-right, $clock, $error, $insta, $magniffic-glass, $marker, $phone, )
+$spritesheet-sprites: ($arrow-left, $arrow-right, $clock, $close, $error, $insta, $magniffic-glass, $marker, $phone, )
 $spritesheet: (86px, 86px, '../../img/sprite.png', $spritesheet-sprites, )
 
 // The provided mixins are intended to be used with the array-like variables
@@ -153,13 +164,14 @@ $spritesheet: (86px, 86px, '../../img/sprite.png', $spritesheet-sprites, )
     .#{$sprite-name}
       @include sprite($sprite)
 
-
 .icon-arrow-left
   @include sprite($arrow-left)
 .icon-arrow-right
   @include sprite($arrow-right)
 .icon-clock
   @include sprite($clock)
+.icon-close
+  @include sprite($close)
 .icon-error
   @include sprite($error)
 .icon-insta

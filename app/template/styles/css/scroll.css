@@ -1,0 +1,11 @@
+.popup ::-webkit-scrollbar-track {
+	background-color: #dbe6e7;
+}
+.popup ::-webkit-scrollbar-thumb {
+  /*border-radius: 3px;*/
+  background-color: #38b2bd;
+
+}
+.popup ::-webkit-scrollbar{
+	width: 16px;
+}

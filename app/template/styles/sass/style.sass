@@ -219,6 +219,8 @@ a
 	margin-right: auto
 
 
+
+
 .panel
 	z-index: 800
 	padding-top: 26px
@@ -850,3 +852,88 @@ a
 		line-height: 16px
 		color: #aacacc
 		max-width: 250px
+
+.popup
+	display: none
+	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.27)
+	padding: 0
+	position: relative
+	.fancybox-close-small
+		top: 0
+		right: 0
+		width: 16px
+		height: 16px
+		position: absolute
+		display: block
+		top: 23px
+		right: 24px
+		transition: .3s
+		&:before
+			display: block
+			content: ''
+			@include sprite($close)
+		&:after
+			display: none
+		&:hover
+			transform: rotate(90deg)
+	&_thanks
+		max-width: 460px
+		text-align: center
+		border: 3px solid #f23734
+		padding-top: 46px
+		padding-bottom: 48px
+		.popup
+			&__title
+				&:after
+					content: ''
+					display: block
+					width: 140px
+					height: 2px
+					margin: 0 auto
+					background: #f23734
+					margin-top: 25px
+					margin-bottom: 30px
+			&__text
+				font-size: 18px
+				font-weight: 700
+				margin-bottom: 22px
+				padding-left: 10px
+				padding-right: 10px
+			&__close
+				span
+					font-size: 14px
+					font-weight: 700
+					color: #f23734
+					border-bottom: 1px dotted #f23734
+					cursor: pointer
+					&:hover
+						border-color: transparent
+	&_agreement
+		border: 3px solid #3ab1bc
+		max-width: 700px
+		.popup
+			&__title
+				padding: 25px 37px
+			&__wrap
+				border-top: 1px solid #dae6e7
+				padding: 19px 37px 15px
+				height: 600px
+				overflow-x: auto
+			&__text
+				p
+					margin-bottom: 15px
+				h2
+					font-size: 20px
+					line-height: 20px
+					font-weight: 700
+					margin-bottom: 10px
+				h3
+					font-size: 18px
+					font-weight: 700
+					margin-bottom: 10px
+
+	&__title
+		font-size: 24px
+		font-weight: 700
+		line-height: 34px
+		text-transform: uppercase

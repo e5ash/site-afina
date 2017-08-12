@@ -278,6 +278,17 @@
     margin-left: auto;
     margin-right: auto; } }
 
+@media screen and (max-width: 740px) {
+  .popup_agreement {
+    max-width: 95%; }
+    .popup_agreement .popup__title {
+      padding: 15px 30px 15px 15px; }
+    .popup_agreement .popup__wrap {
+      padding: 15px; }
+  .popup_thanks {
+    padding-top: 20px;
+    padding-bottom: 20px; } }
+
 @media screen and (max-width: 650px) {
   .order__text p {
     display: inline; } }
@@ -288,7 +299,13 @@
   .technologies__title:after, .price__title:after {
     right: -7%; }
   .portfolio__item {
-    width: 50%; } }
+    width: 50%; }
+  .popup .fancybox-close-small {
+    right: 15px; } }
+
+@media screen and (max-width: 500px) {
+  .popup_thanks {
+    max-width: 95%; } }
 
 @media screen and (max-width: 490px) {
   .steps__item {
@@ -302,4 +319,7 @@
   .technologies__title:before {
     left: -10%; }
   .technologies__title:after {
-    right: -10%; } }
+    right: -10%; }
+  .popup_thanks .fancybox-close-small {
+    top: 6px;
+    right: 6px; } }

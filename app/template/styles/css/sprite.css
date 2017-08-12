@@ -12,13 +12,19 @@
 
 .icon-clock {
   background-image: url(../../img/sprite.png);
-  background-position: -67px -30px;
+  background-position: -48px -30px;
   width: 14px;
   height: 14px; }
 
+.icon-close {
+  background-image: url(../../img/sprite.png);
+  background-position: -67px -30px;
+  width: 16px;
+  height: 16px; }
+
 .icon-error {
   background-image: url(../../img/sprite.png);
-  background-position: -48px -30px;
+  background-position: -22px -48px;
   width: 14px;
   height: 14px; }
 
@@ -42,6 +48,6 @@
 
 .icon-phone {
   background-image: url(../../img/sprite.png);
-  background-position: -22px -48px;
+  background-position: -36px -48px;
   width: 14px;
   height: 14px; }

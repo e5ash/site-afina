@@ -301,6 +301,20 @@
 			max-width: 280px
 			margin-left: auto
 			margin-right: auto
+@media screen and (max-width: 740px)
+	.popup
+		&_agreement
+			max-width: 95%
+			.popup
+				&__title
+					padding: 15px 30px 15px 15px
+				&__wrap
+					padding: 15px
+		&_thanks
+			padding-top: 20px
+			padding-bottom: 20px
+			.popup
+
 @media screen and (max-width: 650px)
 	.order
 		&__text
@@ -316,6 +330,13 @@
 	.portfolio
 		&__item
 			width: 50%
+	.popup
+		.fancybox-close-small
+			right: 15px
+@media screen and (max-width: 500px)
+	.popup
+		&_thanks
+			max-width: 95%
 @media screen and (max-width: 490px)
 	.steps
 		&__item
@@ -331,3 +352,8 @@
 				left: -10%
 			&:after
 				right: -10%
+
+	.popup_thanks
+		.fancybox-close-small
+			top: 6px
+			right: 6px
